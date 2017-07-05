@@ -1,6 +1,6 @@
 ---
 
-- name: Add ESXi Host to VCS
+- name: Add ESXi Host to VCSA
   local_action:
             module: vmware_host
             validate_certs: false
