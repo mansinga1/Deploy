@@ -11,5 +11,5 @@
             cluster_name: Synergy_Poc_Cluster
             esxi_hostname: 10.0.5.98
             esxi_username: root
-            esxi_password: Start123
+            esxi_password: Start124
             state: present
