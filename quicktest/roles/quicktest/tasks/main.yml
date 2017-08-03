@@ -4,7 +4,7 @@
   include_vars:
     dir: 'vars' #change directory if needed
     extensions:
-- yml
+        - yml
 
 - name: Add ESXi Host to VCSA
   local_action:
