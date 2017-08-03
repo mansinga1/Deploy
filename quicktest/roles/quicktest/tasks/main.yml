@@ -4,7 +4,7 @@
   local_action:
             module: vmware_host
             validate_certs: false
-            hostname: ukrdvmgvc001.dbpoc.uk
+            hostname: "{{ hostname }}"
             username: "{{ user_name }}"
             password: "{{ password }}"
             datacenter_name: Synergy_Poc
