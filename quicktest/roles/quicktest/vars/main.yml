@@ -1,3 +1,4 @@
+hostname: 'ukrdvmgvc001.dbpoc.uk'
+
 esxi_host: '10.0.5.98'
-esxi_username: 'root'
-esxi_password: 'Start123'
+
