@@ -1,5 +1,11 @@
 ---
 
+- name: Include all variable files
+  include_vars:
+    dir: 'vars' #change directory if needed
+    extensions:
+- yml
+
 - name: Add ESXi Host to VCSA
   local_action:
             module: vmware_host
